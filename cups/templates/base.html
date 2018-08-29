@@ -1,16 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
 <head>
     <meta charset="UTF-8">
-{#block 模板标签 块   带参数 name 标签名字#}
+    {#block 模板标签 块   带参数 name 标签名字#}
     <title>{% block title %}{% endblock %}</title>
 </head>
-
-
 <body>
 
 <div>
-    <h3>我的博客网站</h3>
+     <a href="{% url 'home' %}"><h3>我的博客网站</h3></a>
 </div>
 <hr>
 

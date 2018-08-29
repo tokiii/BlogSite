@@ -3,7 +3,7 @@ from django.contrib.auth.models import User
 
 
 class BlogType(models.Model):
-    type_name = models.CharField(max_length=15,verbose_name="标题")
+    type_name = models.CharField(max_length=15, verbose_name="标题")
 
     def __str__(self):
         return self.type_name
