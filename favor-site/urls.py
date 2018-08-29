@@ -20,5 +20,5 @@ from cups.views import blog_list
 urlpatterns = [
     path('', blog_list, name='home'),
     path('admin/', admin.site.urls),
-    path('blog/', include('cups.urls')),
+    path('', include('cups.urls')),
 ]
