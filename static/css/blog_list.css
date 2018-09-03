@@ -1,0 +1,8 @@
+/*博客列表css 样式美化*/
+a.blog_title {
+    margin-left: 10px;
+}
+
+p.blog_content {
+    margin-left: 20px;
+}
